@@ -1,0 +1,5 @@
+<svg id="map-pin" xmlns="http://www.w3.org/2000/svg" width="47.036" height="47.036" viewBox="0 0 47.036 47.036">
+  <path id="Path_154" data-name="Path 154" d="M0,0H47.036V47.036H0Z" fill="none"/>
+  <circle id="Ellipse_7" data-name="Ellipse 7" cx="6" cy="6" r="6" transform="translate(17.518 15.518)" fill="none" stroke="#05d3aa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_155" data-name="Path 155" d="M30.766,29.765,22.45,38.081a3.916,3.916,0,0,1-5.54,0L8.592,29.765a15.679,15.679,0,1,1,22.174,0Z" transform="translate(3.839 2.88)" fill="none" stroke="#2b9ff1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

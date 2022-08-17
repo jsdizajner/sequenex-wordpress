@@ -1,0 +1,232 @@
+/*
+Theme Name: Sequenex
+Theme URI: https://www.sequenex.com/
+Author: Július Sipos
+Author URI: https://jsdizajner.com/
+Description: The Sequenex Website
+Text Domain: sequenex
+Version: 2.0.1
+*/
+
+.card {
+    border: none;
+}
+
+.blog-featured {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.heading-3 {
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.heading-6 {
+    color: #2B9FF1;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.blog-title-color {
+    color: #176F77 !important;
+}
+
+.body-emphasis {
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
+    color: #197E88;
+}
+
+.featured-post-container {
+    background-color: #E9FCFF;
+    border-radius: 20px;
+}
+
+.featured-image {
+    border-radius: 0px 20px 20px 0px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.post-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8125rem;
+}
+
+.post-excerpt {
+    font-size: 1rem;
+    line-height: 1.825rem;
+}
+
+.link-sm {
+    font-size: 1.12rem !important;
+}
+
+.link-sm:hover {
+    color: #06d3ac !important;
+}
+
+/* .post {
+    background: grey;
+} */
+
+.img-thumbnail {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #979797;
+    background-color: #fff;
+    border: 2px solid #979797;
+    margin-right: 1rem;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #16BBCB;
+    text-decoration: none;
+    background-color: #fff;
+    border-color: #2B9FF1;
+}
+
+.next, .prev {
+    border: none !important;
+}
+
+.widget-title {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: #176F77;
+    font-weight: bold;
+}
+
+.w-blog-categories {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.categories-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-wrapper {
+    margin: 5px 5px;
+}
+
+.badge-light {
+    border: 1px solid #176F77;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 9px 17px;
+    font-weight: normal;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 560px;
+}
+
+.article-title {
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+    color: #2B9FF1;
+    font-weight: normal;
+}
+
+.single-category-link {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5625rem;
+    color: #979797;
+    padding: 0;
+}
+
+.single-category-list-item::after {
+    content: ',';
+    color: #979797;
+}
+
+.single-category-list-item::before {
+    content: '\00a0';
+    color: #979797;
+}
+
+.single-category-list-item:last-child:after {
+    content: '';
+}
+
+.single-category-link:hover {
+    color: #2B9FF1;
+}
+
+.single-span {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5625rem;
+    color: #979797;
+}
+
+.single-author {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5625rem;
+    color: #2B9FF1;
+}
+
+.unstyled-list {
+    padding:0;
+}
+
+#post-content p {
+    color: #197E88;
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
+}
+
+#post-content h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2.375rem;
+    color: #176F77;
+    margin-bottom: 1rem;
+}
+
+#post-content ul {
+    list-style: none;
+    font-size: 1.0625rem;
+}
+
+#post-content ul li {
+    color: #197e88;
+}
+
+#post-content ul li::before {
+    content: "";
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    border: 1px solid #05d3aa;
+    display: inline-block;
+    transform: translateY(3px);
+    margin-right: 6px;
+    margin-left: -24px;
+    background: radial-gradient(circle at center, #2B9FF1 0%, #2B9FF1 49%, transparent 50%, transparent 100%);
+}
+
+.share-icons li {
+    margin-right: 1rem;
+}
+.share-icons li:last-child {
+    margin-right: 0;
+}
