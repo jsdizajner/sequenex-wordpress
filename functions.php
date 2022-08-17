@@ -16,6 +16,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 $myUpdateChecker->setBranch('main');
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 /**
  * Scripts and Styles of the Website
