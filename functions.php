@@ -15,6 +15,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'sequenex'
 );
 
+$myUpdateChecker->setBranch('main');
+
 /**
  * Scripts and Styles of the Website
  */
