@@ -8,9 +8,9 @@
 require_once "framework/jsd-config.php";
 require_once "bootstrap-pagination.php";
 
-require get_template_directory_uri() . '/update-checker/plugin-update-checker.php';
+require dirname(__FILE__) . '/update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/jsdizajner/sequenex',
+	'https://github.com/jsdizajner/sequenex-wordpress',
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'sequenex'
 );
