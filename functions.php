@@ -10,7 +10,7 @@ require_once "bootstrap-pagination.php";
 
 require get_template_directory_uri() . '/update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'http://example.com/path/to/details.json',
+	'https://github.com/jsdizajner/sequenex',
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'sequenex'
 );
