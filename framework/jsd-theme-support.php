@@ -22,9 +22,9 @@ if ( ! function_exists( 'jsd_setup_theme' ) ) :
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'widgets' );
     add_theme_support( 'html5', array(
-      'search-form',
-      'comment-form',
-      'comment-list',
+      // 'search-form',
+      // 'comment-form',
+      // 'comment-list',
       'gallery',
       'caption',
       'script',

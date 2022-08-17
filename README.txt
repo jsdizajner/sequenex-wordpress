@@ -12,6 +12,9 @@ Sequenex WordPress Theme developed by Július Sipos.
 
 == Changelog ==
 
+= 2.1.1 =
+* Hotfix: Updated Theme Support
+
 = 2.1.0 =
 * Added Theme Updater
 
